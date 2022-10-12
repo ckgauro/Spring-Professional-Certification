@@ -1,0 +1,183 @@
+1. Environment Setup
+2. Examples Download
+3. Question 01 - What is dependency injection and what are the advantages?
+4. Question 02 - What is a pattern? What is an anti-pattern. [...]
+5. Question 03 - What is an interface and what are the advantages of [..]?
+6. Question 04 - What is meant by "application-context"?
+7. Question 05 - What is the concept of a “container” and what is its lifecycle?
+8. Question 06 - How are you going to create a new instance of an [..] Context?
+9. Question 07 - Can you describe the lifecycle of a Spring Bean in an [...]?
+10. Question 08 - How are you going to create an ApplicationContext in an [..]?
+11. Question 09 - What is the preferred way to close an application context? [..]
+12. Question 10 - Can you describe Dependency injection using Java [..]
+13. Question 11 - Are beans lazily or eagerly instantiated by default? How do [...]?
+14. Question 12 - What is a property source? How would you use @PropertySource?
+15. Question 13 - What is a BeanFactoryPostProcessor and what is it used for? [...]?
+16. Question 14 - What is a BeanPostProcessor and how is it different to a [...]?
+17. Question 15 - What does component-scanning do?
+18. Question 16 - What is the behavior of the annotation @Autowired with [...]?
+19. Question 17 - What do you have to do, if you would like to inject [...]?
+20. Question 18 - How does the @Qualifier annotation complement the use of [...]?
+21. Question 19 - What is a proxy object and what are the two different types [...]?
+22. Question 20 - What are the advantages of Java Config? What are the limitations?
+23. Question 21 - What does the @Bean annotation do?
+24. Question 22 - What is the default bean id if you only use @Bean? How can [...]?
+25. Question 23 - Why are you not allowed to annotate a final class with [...]?
+26. Question 24 - How do you configure profiles? What are possible use cases [...]?
+27. Question 25 - Can you use @Bean together with @Profile?
+28. Question 26 - Can you use @Component together with @Profile?
+29. Question 27 - How many profiles can you have?
+30. Question 28 - How do you inject scalar/literal values into Spring beans?
+31. Question 29 - What is @Value used for?
+32. Question 30 - What is Spring Expression Language (SpEL for short)?
+33. Question 31 - What is the Environment abstraction in Spring?
+34. Question 32 - Where can properties in the environment come from?
+35. Question 33 - What can you reference using SpEL?
+36. Question 34 - What is the difference between $ and # in @Value expressions?
+Start
+1. Examples Download
+2. Question 01 - What is the concept of AOP?
+3. Question 02 - What is a pointcut, a join point, an advice, an aspect, weaving?
+4. Question 03 - How does Spring solve (implement) a cross cutting concern?
+5. Question 04 - Which are the limitations of the two proxy-types?
+6. Question 05 - How many advice types does Spring support. Can you name each one?
+7. Question 06 - What do you have to do to enable the detection of the @Aspect?
+8. Question 07 - If shown pointcut expressions, would you understand them?
+9. Question 08 - What is the JoinPoint argument used for?
+10. Question 09 - What is a ProceedingJoinPoint? When is it used?
+1. Examples Download
+2. Question 01 - What is the difference between checked and unchecked [...]?
+3. Question 02 - How do you configure a DataSource in Spring? [...]
+4. Question 03 - What is the Template design pattern and what is the JDBC template?
+5. Question 04 - What is a callback? What are the three JdbcTemplate [...]
+6. Question 05 - Can you execute a plain SQL statement with the JDBC template?
+7. Question 06 - When does the JDBC template acquire (and release) a [...]
+8. Question 07 - How does the JdbcTemplate support generic queries? [...]
+9. Question 08 - What is a transaction? What is the difference between [...]
+10. Question 09 - Is a transaction a cross cutting concern? How is it [...]
+11. Question 10 - How are you going to define a transaction in Spring? What [...]
+12. Question 11 - Is the JDBC template able to participate in an existing [...]?
+13. Question 12 - What is a transaction isolation level? How many do we have [...]
+14. Question 13 - What is @EnableTransactionManagement for?
+15. Question 14 - What does transaction propagation mean?
+16. Question 15 - What happens if one @Transactional annotated method is [...]
+17. Question 16 - Where can the @Transactional annotation be used? What is a [...]
+18. Question 17 - What does declarative transaction management mean?
+19. Question 18 - What is the default rollback policy? How can you override it?
+20. Question 19 - What is the default rollback policy in a JUnit test, when [...]
+21. Question 20 - Why is the term "unit of work" so important and why does [...]
+22. Question 21 - What do you need to do in Spring if you would like to work [...]?
+23. Question 22 - Are you able to participate in a given transaction in [...]
+24. Question 23 - Which PlatformTransactionManager(s) can you use with JPA?
+25. Question 24 - What do you have to configure to use JPA with Spring? [...]
+26. Question 25 - What is a Repository interface?
+27. Question 26 - How do you define a Repository interface? Why is [...]
+28. Question 27 - What is the naming convention for finder methods in a [...]
+29. Question 28 - How are Spring Data repositories implemented by Spring at runtime?
+30. Question 29 - What is @Query used for?
+1. Example download
+2. Question 01 - What is Spring Boot?
+3. Question 02 - What are the advantages of using Spring Boot?
+4. Question 03 - Why is it "opinionated"?
+5. Question 04 - What things affect what Spring Boot sets up?
+6. Question 05 - What is a Spring Boot starter POM? Why is it useful?
+7. Question 06 - Spring Boot supports both properties and YML files. Would [...]
+8. Question 07 - Can you control logging with Spring Boot? How?
+9. Question 08 - Where does Spring Boot look for property file by default?
+10. Question 09 - How do you define profile specific property files?
+11. Question 10 - How do you access the properties defined in the property files?
+12. Question 11 - What properties do you have to define in order to configure [...]
+13. Question 12 - How do you configure default schema and initial data?
+14. Question 13 - What is a fat jar? How is it different from the original jar?
+15. Question 14 - What is the difference between an embedded container and a WAR?
+16. Question 15 - What embedded containers does Spring Boot support?
+17. Question 16 - How does Spring Boot know what to configure?
+18. Question 17 - What does @EnableAutoConfiguration do?
+19. Question 18 - What does @SpringBootApplication do?
+20. Question 19 - Does Spring Boot do component scanning? Where does it look [...]
+21. Question 20 - How are DataSource and JdbcTemplate auto-configured?
+22. Question 21 - What is spring.factories file for?
+23. Question 22 - How do you customize Spring auto configuration?
+24. Question 23 - What are the examples of @Conditional annotations? How are [...]
+25. Question 24 - What value does Spring Boot Actuator provide?
+26. Question 25 - What are the two protocols you can use to access [...]
+27. Question 26 - What are the actuator endpoints that are provided [...]
+28. Question 27 - What is info endpoint for? How do you supply data?
+29. Question 28 - How do you change logging level of a package using loggers [...]
+30. Question 29 - How do you access an endpoint using a tag?
+31. Question 30 - What is metrics for?
+32. Question 31 - How do you create a custom metric with or without tags?
+33. Question 32 - What is Health Indicator?
+34. Question 33 - What are the Health Indicators that are provided out of the box?
+35. Question 34 - What is the Health Indicator status?
+36. Question 35 - What are the Health Indicator statuses that are provided [...]
+37. Question 36 - How do you change the Health Indicator status severity order?
+38. Question 37 - Why do you want to leverage 3rd-party external monitoring system?
+39. Question 38 - When do you want to use @SpringBootTest annotation?
+40. Question 39 - What does @SpringBootTest auto-configure
+41. Question 40 - What dependencies does spring-boot-starter-test [...]
+42. Question 41 - How do you perform integration testing with [...]
+43. Question 42 - When do you want to use @WebMvcTest? What does it [...]
+44. Question 43 - What are the differences between @MockBean and @Mock?
+45. Question 44 - When do you want use @DataJpaTest for? What does [...]
+1. Examples Download
+0min
+2. Question 01 - MVC is an abbreviation for a design pattern. What does [...]
+3. Question 02 - What is the DispatcherServlet and what is it used for?
+4. Question 03 - What is a web application context? What extra scopes [...]
+5. Question 04 - What is the @Controller annotation used for?
+6. Question 05 - How is an incoming request mapped to a controller and [...]
+7. Question 06 - What is the difference between @RequestMapping and @GetMapping?
+8. Question 07 - What is @RequestParam used for?
+9. Question 08 - What are the differences between @RequestParam and @PathVariable?
+10. Question 09 - What are some of the parameter types for a controller [...]
+3
+11. Question 10 - What other annotations might you use on a controller method [...]
+4
+12. Question 11 - What are some of the valid return types of a controller method?
+1. Examples Download
+0min
+2. Question 01 - What are authentication and authorization? Which must come first?
+3. Question 02 - Is security a cross cutting concern? How is it implemented [...]
+4. Question 03 - What is the delegating filter proxy?
+5. Question 04 - What is the security filter chain?
+6. Question 05 - What is a security context?
+7. Question 06 - What does the ** pattern in an antMatcher or mvcMatcher do?
+8. Question 07 - Why is the usage of mvcMatcher recommended over antMatcher?
+9. Question 08 - Does Spring Security support password hashing? What is salting?
+10. Question 09 - Why do you need method security? What type of object is [...]
+11. Question 10 - What @PreAuthorized and @RolesAllowed annotations do? [...]
+12. Question 11 - How are @PreAuthorized and @RolesAllowed annotations implemented?
+13. Question 12 - In which security annotation are you allowed to use SpEL?
+1. Examples Download
+0min
+2. Question 01 - What does REST stand for?
+3. Question 02 - What is a resource?
+4. Question 03 - What does CRUD mean?
+5. Question 04 - Is REST secure? What can you do to secure it?
+6. Question 05 - Is REST scalable and/or interoperable?
+7. Question 06 - Which HTTP methods does REST use?
+8. Question 07 - What is an HttpMessageConverter?
+9. Question 08 - Is REST normally stateless?
+10. Question 09 - What does @RequestMapping do?
+11. Question 10 - Is @Controller a stereotype? Is @RestController a stereotype?[...]
+12. Question 11 - What is the difference between @Controller and @RestController?
+13. Question 12 - When do you need @ResponseBody?
+14. Question 13 - What are the HTTP status return codes for a successful GET, [...]
+15. Question 14 - When do you need @ResponseStatus?
+16. Question 15 - Where do you need @ResponseBody? What about @RequestBody?
+17. Question 16 - If you saw example Controller code, would you understand [...]
+18. Question 17 - Do you need Spring MVC in your classpath?
+19. Question 18 - What Spring Boot starter would you use for a Spring REST [...]
+20. Question 19 - What are the advantages of the RestTemplate?
+21. Question 20 - If you saw an example using RestTemplate would you [...]
+1. Examples Download
+0min
+2. Question 01 - Do you use Spring in a unit test?
+3. Question 02 - What type of tests typically use Spring?
+4. Question 03 - How can you create a shared application context in a JUnit [...]
+5. Question 04 - When and where do you use @Transactional in testing?
+6. Question 05 - How are mock frameworks such as Mockito or EasyMock used?
+7. Question 06 - How is @ContextConfiguration used?
+8. Question 07 - How does Spring Boot simplify writing tests?
+9. Question 08 - What does @SpringBootTest do? How does it interact with [...]
