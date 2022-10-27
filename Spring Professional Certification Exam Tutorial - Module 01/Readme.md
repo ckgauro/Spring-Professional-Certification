@@ -247,6 +247,6 @@ Container, Dependency, and IoC
 </details>
 <details>
 
-   <summary><b><u>  36. Question 34 - What is the difference between $ and # in @Value expressions?
+   <summary><b><u>  36. Question 34 - What is the difference between $ and # in @Value expressions? </u></b></summary>
    --------------
 </details>
