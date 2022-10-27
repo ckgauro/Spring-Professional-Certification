@@ -175,6 +175,7 @@ Data Management: JDBC, Transactions, Spring Data JPA
 --------------
 </details>
 <details>
-   <summary><b><u> 30. Question 29 - What is @Query used for?
+   <summary><b><u> 30. Question 29 - What is @Query used for?</u></b></summary>
+
    --------------
 </details>
